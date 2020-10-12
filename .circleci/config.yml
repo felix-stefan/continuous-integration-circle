@@ -42,7 +42,6 @@ jobs:
       - run:
           name: notify test is finished
           command: echo "The test is completed!"
-          command: echo "The build is finished!"
 
 workflows:
   version: 2.1
